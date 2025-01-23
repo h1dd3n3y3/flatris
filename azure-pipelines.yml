@@ -6,8 +6,7 @@
 trigger:
 - master
 
-pool:
-  vmImage: pi5
+pool: pi5
 
 steps:
 - task: NodeTool@0
